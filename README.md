@@ -1,4 +1,4 @@
-# Cross-Platform-Text-Classification_MentalHealth
+# Cross-Platform Emotion Classification for Enhanced Mental Health Prediction
 
 Social media platforms have become vital spaces for mental health discussions because they offer users avenues to express emotions and seek support. However, there is a dearth of research in extant literature focused on exploring whether it is possible to classify 
 emotions across different platforms, despite the potential for improving mental health 
