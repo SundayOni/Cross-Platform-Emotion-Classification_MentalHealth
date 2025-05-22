@@ -31,10 +31,23 @@ This study utilised two primary datasets obtained from Twitter and Reddit via th
 - Lemmatisation was performed to reduce words to their root forms, improving consistency and accuracy in text analysis.
 - Annotation was done using pre-trained transformer models, which automatically labeled the dataset with six core emotions: happiness, anger, sadness, fear, surprise, and joy.
 
-4. Exploratory Data Analysis (EDA)
-5. Data Preprocessing
-6. Model Training
-7. Model Evaluation
+## 3. Exploratory Data Analysis (EDA)
+
+
+![Text_length_both](https://github.com/user-attachments/assets/c5b64e4f-a363-4f90-a565-0bfa28a6d7bd)
+
+
+![Word_count_both](https://github.com/user-attachments/assets/cfa8b75f-6e39-4fa3-a365-5d3454265ca8)
+
+
+
+![Emotion_distribution_both](https://github.com/user-attachments/assets/1e141992-ef03-4a44-961c-80e3b4533ac7)
+
+
+
+6. Data Preprocessing
+7. Model Training
+8. Model Evaluation
 
 FINDINGS AND KEY INSIGHTS
 
