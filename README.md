@@ -33,11 +33,16 @@ This study utilised two primary datasets obtained from Twitter and Reddit via th
 
 ## 3. Exploratory Data Analysis (EDA)
 
-
+The Twitter dataset contains mostly short texts ranging from 9 to 765 characters, with most tweets falling between 50 and 230 characters, showing a right-skewed distribution due to a few longer tweets. In contrast, Reddit posts are generally longer and more detailed, ranging from 0 to 4,363 characters, with most falling between 150 and 850 characters and a notable presence of lengthy outliers.
 ![Text_length_both](https://github.com/user-attachments/assets/c5b64e4f-a363-4f90-a565-0bfa28a6d7bd)
 
 
+The figure below illustrates the word count distribution on both platforms. Twitter posts range from 3 to 84 words, with most tweets containing 5 to 30 words, showing a right-skewed distribution due to a few lengthier entries. Reddit posts, however, show a broader range from 1 to 780 words, also with the majority between 5 and 30 words, but with a longer tail suggesting that some users tend to write much more detailed and extended content.
 ![Word_count_both](https://github.com/user-attachments/assets/cfa8b75f-6e39-4fa3-a365-5d3454265ca8)
+
+
+
+![Wordclouds_both](https://github.com/user-attachments/assets/0d469ef0-ffe5-475d-b64d-76a4b9db969c)
 
 
 
