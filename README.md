@@ -1,15 +1,42 @@
-# Cross-Platform Emotion Classification for Enhanced Mental Health Prediction
+# 🧠 Mental Health Prediction via Emotion Classification
+## Cross-Platform Emotion Analysis Using Twitter and Reddit Data
 
-Social media platforms have become vital spaces for mental health discussions because they offer users avenues to express emotions and seek support. However, there is a dearth of research in extant literature focused on exploring whether it is possible to classify 
-emotions across different platforms, despite the potential for improving mental health 
-prediction models. In order to address the gap, this study aims to examine how cross platform emotion classification can help to understand mental health discussions and contribute to the prediction of mental illnesses. 
 
-Mental health-related data was collected from Twitter and Reddit, two of the major social 
-websites where people frequently post about their experiences and express their emotions. The data was preprocessed using natural language processing techniques, and then labelled with six emotions using pre-trained models from Hugging face. Two machine 
-learning models, Support Vector Machine (SVM) and Naive Bayes, were used within and across platforms to assess how they perform in classifying these six emotions. 
+## Introduction
+Globally, mental health concerns have become a significant public health issue, impacting millions of people with rising rates of anxiety, depression, and other illnesses. The World Health Organisation (WHO) estimated that 970 million individuals worldwide, or 1 in 8 people, suffered from a mental illness in 2019, with anxiety and depressive disorders being the most prevalent types of mental illness. Due to the COVID-19 epidemic, the number of individuals suffering from anxiety and depression illnesses increased dramatically in 2020, while one in four people worldwide may experience neurological and mental health issues at some point in their lives (E and Juliet 2023). In the UK alone, 72 million working days are missed annually due to mental illness, making it the second-largest cause of disease burden in England, costing approximately £34.9 billion (MHFA England 2019).
 
-Results show that while SVM outperformed Naive Bayes in both single platform and cross platform classification, there were significant drops when the models were trained on one platform and tested on another. The findings of this project highlight the complicated 
-linguistic and emotional differences that exist between Reddit and Twitter posts, which present challenges for cross-platform emotion classification. 
+## Problem Statement
+The study by Benrouba and Boudour (2023) suggests that although mental health conditions like anxiety and depression are becoming more common, traditional methods of assessment like 
+self-report questionnaires and clinical interviews, are limited in that they are retrospective in nature and prone to bias. While many research have emphasised the enormous potential of social media data, existing methods of predicting mental health conditions using social media data tend to focus on single-platform analysis, ignoring the diverse emotional expressions as well as the contextual and linguistic differences across different platforms. This project addresses this gap by investigating cross-platform emotion classification to enhance the accuracy and reliability of mental health predictions. 
 
-The findings suggest that cross-platform models could provide valuable insights into public mental health trends by capturing diverse emotional expressions across different online spaces. Practically, these models could assist mental health professionals, policymakers and 
-researchers in developing more accurate tools for early detection of mental illnesses. 
+## Aim of the project
+This project aims to investigate how the prediction of mental illness can be improved through 
+the integration of emotion data across two social media platforms, Reddit and Twitter. The goal is to develop and evaluate models that can classify emotions accurately across these platforms. In addition, the study will elucidate the challenges of effective cross-platform emotion classification for improved prediction of mental health disorders. Specific objectives include:
+- To apply Natural Language Processing (NLP) techniques for emotion detection in diverse 
+text formats.   
+- To examine how linguistic patterns and emotional expressions differ across Twitter and 
+Reddit in the context of mental health discussions.  
+- To develop machine learning models for early prediction of mental disorders. 
+- To improve patient outcomes by reducing mental health-related complications, thereby lowering healthcare costs associated with mental illnesses.
+
+## Methodology
+### 1. *Data Sources and Data Collection Technique*
+This study utilised two primary datasets obtained from Twitter and Reddit via their official APIs. These platforms were selected due to their widespread use, rich user-generated content related to emotions and mental health, and relatively permissive data access policies, which made them suitable for mental health (MH) research. Although expanding to more platforms could have enhanced the study's reliability, restrictions on data access posed limitations. The data collection involved selecting relevant keywords, such as “depression,” “anxiety,” “suicide,” and various MH-related hashtags on Twitter and targeting fifteen MH-focused subreddits on Reddit, identified in prior studies as highly active. Filters were applied to collect only English-language posts and tweets within the allowed time frames, noting that Reddit allowed retrieval of both old and recent content while Twitter was limited to more recent data due to API access level. Data scraping was performed using developer accounts and API endpoints accessed via Python libraries: Tweepy for Twitter and PRAW for Reddit.
+
+### 2. *Data Cleaning*
+- Duplicates, empty values (nulls), and irrelevant columns that do not support the analysis were removed to ensure data quality and focus.
+- All text was standardised by converting to lowercase and cleaning out punctuations, special characters, URLs, hyperlinks, mentions, and contractions.
+- Posts and tweets made by moderators or admins were excluded to ensure the analysis focuses solely on content generated by individuals potentially experiencing mental health issues.
+- Tokenisation and stop word removal were carried out to break down the text into individual words and eliminate common, non-informative words, ensuring only meaningful terms were retained for analysis.
+- Lemmatisation was performed to reduce words to their root forms, improving consistency and accuracy in text analysis.
+- Annotation was done using pre-trained transformer models, which automatically labeled the dataset with six core emotions: happiness, anger, sadness, fear, surprise, and joy.
+
+4. Exploratory Data Analysis (EDA)
+5. Data Preprocessing
+6. Model Training
+7. Model Evaluation
+
+FINDINGS AND KEY INSIGHTS
+
+Recommendation
+Conclusion
